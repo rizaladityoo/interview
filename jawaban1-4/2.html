@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<p id="demo"></p>
+
+<script>
+let str = "Qwords adalah perusahaan yang bergerak di bidang Web Hosting";
+  let arr = str.split(" ");
+  let result = ""
+  for (let x=arr.length-1; x >= 0; x--) {
+  	result += arr[x]+ " "
+  } 
+  document.getElementById("demo").innerHTML = result;
+</script>
+
+</body>
+</html>
